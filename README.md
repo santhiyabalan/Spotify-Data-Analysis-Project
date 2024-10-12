@@ -225,7 +225,6 @@ To improve query performance, we carried out an optimization process focusing on
 
 Before creating the index, we analyzed the performance of a query that retrieved tracks based on the artist column. The performance metrics were as follows:
 - **Execution time (E.T.)**: 0.062 ms
-- **Planning time (P.T.)**: [insert planning time here, if applicable]
 
 #### EXPLAIN Results Before Index Creation
 (![before_indexing](https://github.com/user-attachments/assets/de010985-d99b-4482-a5dd-3e809f747b0a)
@@ -242,7 +241,6 @@ CREATE INDEX idx_artist ON spotify_(artist);
 
 After creating the index, we ran the same query again and observed significant improvements in performance:
 - **Execution time (E.T.)**: 0.000 ms
-- **Planning time (P.T.)**: [insert planning time here, if applicable]
 
 #### EXPLAIN Results After Index Creation
 (![after_indexing](https://github.com/user-attachments/assets/6eb33d65-5538-4614-999a-012db8585d74)
