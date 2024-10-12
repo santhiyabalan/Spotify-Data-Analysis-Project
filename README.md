@@ -228,10 +228,8 @@ Before creating the index, we analyzed the performance of a query that retrieved
 - **Planning time (P.T.)**: [insert planning time here, if applicable]
 
 #### EXPLAIN Results Before Index Creation
-![Before Index Creation](path/to/before_screenshot) 
-
-*Replace `![before_indexing](https://github.com/user-attachments/assets/de010985-d99b-4482-a5dd-3e809f747b0a)
-` with the actual path to your screenshot of the results before index creation.*
+![Before Index Creation](![before_indexing](https://github.com/user-attachments/assets/de010985-d99b-4482-a5dd-3e809f747b0a)
+) 
 
 ### Index Creation on the Artist Column
 
@@ -247,12 +245,9 @@ After creating the index, we ran the same query again and observed significant i
 - **Planning time (P.T.)**: [insert planning time here, if applicable]
 
 #### EXPLAIN Results After Index Creation
-![After Index Creation](path/to/after_screenshot)
-
-*Replace `![after_indexing](https://github.com/user-attachments/assets/6eb33d65-5538-4614-999a-012db8585d74)
-` with the actual path to your screenshot of the results after index creation.*
-
-
+![After Index Creation](![after_indexing](https://github.com/user-attachments/assets/6eb33d65-5538-4614-999a-012db8585d74)
+)
+ 
 ## Technology Stack
 - **Database**: MySQL
 - **SQL Queries**: DDL, DML, Aggregations, Subqueries, Window Functions
