@@ -64,7 +64,6 @@ IGNORE 1 LINES;
 ```
 
 ## SQL Queries for Spotify Data Analysis
-### Old Queries
 ```sql
 -- 1. Retrieve the names of all tracks that have more than 1 billion streams.
 SELECT * FROM spotify_ WHERE stream > 1000000000;
@@ -175,7 +174,7 @@ WITH ranked_artist AS (
 SELECT * FROM ranked_artist WHERE ranks <= 3;
 ```
 
-### New Queries for Enhanced Project
+### Additional Queries for Enhanced Project
 ```sql
 -- Finding Track Details for a Specific Release Date -- eg;2014-06-12
 SELECT s.title, s.artist, t.tracklable
@@ -217,7 +216,7 @@ GROUP BY YEAR(t.releasedate)
 ORDER BY track_count DESC;
 ```
 
-### 5. Index Creation and Query Optimization
+###  Index Creation and Query Optimization
 ```sql
 -- Index Creation
 CREATE INDEX idx_artist ON spotify_(artist);
