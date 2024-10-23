@@ -252,8 +252,8 @@ After creating the index, we ran the same query again and observed significant i
 Execution time (E.T.)**: 0.000 ms
 
 #### EXPLAIN Results After Index Creation
-(![after_indexing](https://github.com/user-attachments/assets/6eb33d65-5538-4614-999a-012db8585d74)
-)
+![after_indexing](https://github.com/user-attachments/assets/6eb33d65-5538-4614-999a-012db8585d74)
+
  
 ## Technology Stack
 - **Database**: MySQL
