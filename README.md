@@ -252,7 +252,7 @@ After creating the index, we ran the same query again and observed significant i
 Execution time (E.T.)**: 0.000 ms
 
 ### EXPLAIN Results After Index Creation
-![after_indexing](https://github.com/user-attachments/assets/7af07f68-1f80-4792-9187-54d95d4a4274)
+(![after_indexing](https://github.com/user-attachments/assets/7af07f68-1f80-4792-9187-54d95d4a4274))
 
 ## Conclusion
 The Spotify Data Analysis Project demonstrates advanced SQL skills, including normalization, complex queries, and query optimization techniques. The project provides valuable insights into Spotify's dataset, making it a useful resource for understanding track performance and artist engagement on the platform.
