@@ -251,8 +251,22 @@ After creating the index, we ran the same query again and observed significant i
 
 Execution time (E.T.)**: 0.000 ms
 
-### EXPLAIN Results After Index Creation
-(![after_indexing](https://github.com/user-attachments/assets/7af07f68-1f80-4792-9187-54d95d4a4274))
+#### EXPLAIN Results After Index Creation
+(![after_indexing](https://github.com/user-attachments/assets/6eb33d65-5538-4614-999a-012db8585d74)
+)
+ 
+## Technology Stack
+- **Database**: MySQL
+- **SQL Queries**: DDL, DML, Aggregations, Subqueries, Window Functions
+- **Tools**: MySQL Workbench
+
+## How to Run the Project
+1. Install MySQL and MySQL Workbench (if not already installed).
+2. Set up the database schema and tables using the provided normalization structure.
+3. Insert the sample data into the respective tables.
+4. Execute SQL queries to solve the listed problems.
+5. Explore query optimization techniques for large datasets.
+
 
 ## Conclusion
 The Spotify Data Analysis Project demonstrates advanced SQL skills, including normalization, complex queries, and query optimization techniques. The project provides valuable insights into Spotify's dataset, making it a useful resource for understanding track performance and artist engagement on the platform.
